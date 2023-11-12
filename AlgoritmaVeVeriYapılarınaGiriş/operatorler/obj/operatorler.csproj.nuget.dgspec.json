@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\operatorler.csproj": {}
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\operatorler.csproj": {}
   },
   "projects": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\operatorler.csproj": {
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\operatorler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\operatorler.csproj",
+        "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\operatorler.csproj",
         "projectName": "operatorler",
-        "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\operatorler.csproj",
+        "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\operatorler.csproj",
         "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-        "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\obj\\",
+        "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\operatorler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\metotlar\\metotlar.csproj",
+      "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\metotlar\\metotlar.csproj",
       "projectName": "metotlar",
-      "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\metotlar\\metotlar.csproj",
+      "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\metotlar\\metotlar.csproj",
       "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-      "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\metotlar\\obj\\",
+      "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\metotlar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\struct\\struct.csproj",
+      "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\struct\\struct.csproj",
       "projectName": "struct",
-      "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\struct\\struct.csproj",
+      "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\struct\\struct.csproj",
       "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-      "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\struct\\obj\\",
+      "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\struct\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

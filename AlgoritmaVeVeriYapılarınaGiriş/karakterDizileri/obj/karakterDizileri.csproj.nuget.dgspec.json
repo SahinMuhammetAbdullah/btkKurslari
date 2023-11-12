@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\karakterDizileri.csproj": {}
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\karakterDizileri.csproj": {}
   },
   "projects": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\karakterDizileri.csproj": {
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\karakterDizileri.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\karakterDizileri.csproj",
+        "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\karakterDizileri.csproj",
         "projectName": "karakterDizileri",
-        "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\karakterDizileri.csproj",
+        "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\karakterDizileri.csproj",
         "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-        "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\obj\\",
+        "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\karakterDizileri\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

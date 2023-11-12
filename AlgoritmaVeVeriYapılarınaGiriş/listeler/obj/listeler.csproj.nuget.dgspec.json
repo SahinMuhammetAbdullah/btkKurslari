@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\listeler.csproj": {}
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\listeler.csproj": {}
   },
   "projects": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\listeler.csproj": {
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\listeler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\listeler.csproj",
+        "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\listeler.csproj",
         "projectName": "listeler",
-        "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\listeler.csproj",
+        "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\listeler.csproj",
         "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-        "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\obj\\",
+        "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

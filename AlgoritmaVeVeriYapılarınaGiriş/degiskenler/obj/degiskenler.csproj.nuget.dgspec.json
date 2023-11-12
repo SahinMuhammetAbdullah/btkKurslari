@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\degiskenler.csproj": {}
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\degiskenler.csproj": {}
   },
   "projects": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\degiskenler.csproj": {
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\degiskenler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\degiskenler.csproj",
+        "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\degiskenler.csproj",
         "projectName": "degiskenler",
-        "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\degiskenler.csproj",
+        "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\degiskenler.csproj",
         "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-        "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\obj\\",
+        "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\degiskenler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

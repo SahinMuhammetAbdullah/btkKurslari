@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\arrayList\\arrayList.csproj",
+      "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\arrayList\\arrayList.csproj",
       "projectName": "arrayList",
-      "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\arrayList\\arrayList.csproj",
+      "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\arrayList\\arrayList.csproj",
       "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-      "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\arrayList\\obj\\",
+      "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\arrayList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

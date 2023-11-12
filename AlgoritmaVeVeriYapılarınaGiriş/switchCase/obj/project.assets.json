@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\switchCase\\switchCase.csproj",
+      "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\switchCase\\switchCase.csproj",
       "projectName": "switchCase",
-      "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\switchCase\\switchCase.csproj",
+      "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\switchCase\\switchCase.csproj",
       "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-      "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\switchCase\\obj\\",
+      "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\switchCase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

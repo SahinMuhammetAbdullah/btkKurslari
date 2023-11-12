@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\VeriYapilarinaGiris\\VeriYapilarinaGiris.csproj",
+      "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\VeriYapilarinaGiris\\VeriYapilarinaGiris.csproj",
       "projectName": "VeriYapilarinaGiris",
-      "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\VeriYapilarinaGiris\\VeriYapilarinaGiris.csproj",
+      "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\VeriYapilarinaGiris\\VeriYapilarinaGiris.csproj",
       "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-      "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\VeriYapilarinaGiris\\obj\\",
+      "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\VeriYapilarinaGiris\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\Class.csproj": {}
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\Class.csproj": {}
   },
   "projects": {
-    "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\Class.csproj": {
+    "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\Class.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\Class.csproj",
+        "projectUniqueName": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\Class.csproj",
         "projectName": "Class",
-        "projectPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\Class.csproj",
+        "projectPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\Class.csproj",
         "packagesPath": "C:\\Users\\mabdu\\.nuget\\packages\\",
-        "outputPath": "D:\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\obj\\",
+        "outputPath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\Class\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mabdu\\AppData\\Roaming\\NuGet\\NuGet.Config"
