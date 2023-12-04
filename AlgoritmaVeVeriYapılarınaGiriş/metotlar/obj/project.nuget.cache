@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pRr8Hqk3mqXrWOe4gUSmAgiJJFEmerIa4h202m4Rk6zB3LNRFnoQ40Sufh8l9h+7cz99EQ/fHKXSD4Pf66QLkw==",
+  "dgSpecHash": "KdvWF1Pqca2lnGtRKJamWxybpOun6Z5BOX866TRvwHaakFI8AqKmpVb37/edJXVY3OXbsBqaSMepH4czUgvk+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\metotlar\\metotlar.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

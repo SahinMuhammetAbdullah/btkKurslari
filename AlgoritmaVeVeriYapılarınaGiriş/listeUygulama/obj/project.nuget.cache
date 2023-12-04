@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AptUYp8f/bP/1LpoKzvUDjiEd6lZAD6TzJxifpB+n1kAtdODFtZfuRuRTDo4q3pg2f5L4svWRwpU5N8fBKK6Dw==",
+  "dgSpecHash": "nEc0KZO7D5yGOkAvD+KSPFb8vfDS9q3mZO+rKp8Peq2knVOLg2SB0Vc/GZSZES5VjJejR1B+NPMw11fbDfLlMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\listeUygulama\\listeUygulama.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

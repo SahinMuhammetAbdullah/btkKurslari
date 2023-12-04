@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/KhmhQ0U5cYIpW0HzAcANLGX+WQH2jvxZxfD9lQUEwHn9fp1Z+LcKN3QlxJKANyzzGdnjNpglz5WK3952GTULw==",
+  "dgSpecHash": "j/CDgeuaKDFjPAdkjGPmNlHLmBS+MwatxHJGke/CSmZRN+QtZh/xkjplsLyXCyoosVIEmN0GTIgxqukPUjICuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\switchCase\\switchCase.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
