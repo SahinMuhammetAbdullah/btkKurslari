@@ -24,3 +24,5 @@ print(users)
 
 print(users[1])
 print(users[1][0])
+
+print('one' in list1)
