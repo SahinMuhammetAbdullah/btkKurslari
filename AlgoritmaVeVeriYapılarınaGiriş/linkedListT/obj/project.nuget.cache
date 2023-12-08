@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D+aR6q0pDrHXbDnDoWz7LZgb6bKyARQT3xJ2pG1VN1wwrrcsSzAMPFpZHxgLS4lZcdJPw7dzFmE+IhvgsxjN3w==",
+  "dgSpecHash": "HHOzO/ZfyxTAYPCyaIJJKEnKPCcetUJ7OI6ddpRN750msuCOCQbnUln00oNs276+Azfcrvii9COk+fQ8tby40w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\linkedListT\\linkedListT.csproj",
+  "projectFilePath": "C:\\Users\\mabdu\\Documents\\code\\btkKursları\\AlgoritmaVeVeriYapılarınaGiriş\\linkedListT\\linkedListT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\mabdu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
