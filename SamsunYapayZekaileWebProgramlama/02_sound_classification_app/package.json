@@ -1,5 +1,5 @@
 {
-  "name": "_01_first_web_app",
+  "name": "02_sound_classification_app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.3.2"
-  }
+  "license": "ISC"
 }
