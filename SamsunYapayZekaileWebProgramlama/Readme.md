@@ -7,7 +7,7 @@
     * Temiz tutulmalı (aykırı değerler dışarda tutulmalı)
 3. Model eğitimi
     * Learning rate
-    * Epoch => anormal değer
+    * Epoch
     * Batch Size
 #! postman ile model jason dosyasını görselleştirebiliyoruz
 #! modeli ve metadatayı incelemek için ""https://teachablemachine.withgoogle.com/models/Eo1U_L7Ms/""
