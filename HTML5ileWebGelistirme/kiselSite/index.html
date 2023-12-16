@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammet Abdullah Şahin</title>
+    <meta name="description" content="Bilgisayar Mühendisi Muhammet Abdullah Şahin'in Kişisel Web Sitesi">
+    <meta name="keywords" content="muhammet,abdullah,şahin,bilgisayar mügendisi,mühendis,yazılımcı,yazılım uzmanı,backend,frontend">
+</head>
+<body>
+        <nav>
+            <center>
+                <div id="clock"></div>
+                <h1>Muhammet Abdullah Şahin</h1>
+                <a href="index.html">Anasayfa |</a>
+                <a href="pages/hakkimda.html">Hakkımda |</a>
+                <a href="pages/projeler.html">Projeler |</a>
+                <a href="pages/iletisim.html">İletişim |</a>
+                <a href="pages/cvindir.html">CV'i İndir</a>
+                <br>
+                <br>
+                <hr>
+                <img src="images/profil.JPG" alt="Muhammet Abdullah Şahin" width="600" title="Muhammet Abdullah Şahin">
+                <br>
+                <hr>
+                               
+            </center>
+        </nav>
+        <script>
+            // Get current time and format
+            function getTime() {
+                let date = new Date(),
+                    min = date.getMinutes(),
+                    sec = date.getSeconds(),
+                    hour = date.getHours();
+                return "" + (hour < 10 ? ("0" + hour) : hour) + ":" + (min < 10 ? ("0" + min) : min) + ":" + (sec < 10 ? ("0" + sec) : sec);
+            }
+            window.onload = () => {
+                // Set up the clock
+                document.getElementById("clock").innerHTML = getTime();
+                // Set clock interval to tick clock
+                setInterval(() => {
+                    document.getElementById("clock").innerHTML = getTime();
+                }, 100);
+            }
+        </script>
+</body>
+</html>
