@@ -11,24 +11,28 @@
     <link rel="stylesheet" href="../css/style.css" />
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
 </head>
 
 <body>
-    <nav>
-        <center>
-            <h1>Muhammet Abdullah Şahin</h1>
-            <a href="../index.html">Anasayfa |</a>
-            <a href="hakkimda.html">Hakkımda |</a>
-            <a href="projeler.html">Projeler |</a>
-            <a href="iletisim.html">İletişim |</a>
-            <a href="cvindir.html">CV'i İndir</a>
-            <br>
-            <br>
-            <hr>
+    <header>
+        <div id="navbar-container"></div>
 
-        </center>
-    </nav>
+        <script>
+            // fetch ile navbar.html dosyasını yükle
+            fetch('/components/navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    // HTML içeriğini alınan data ile doldur
+                    document.getElementById('navbar-container').innerHTML = data;
+                })
+                .catch(error => console.error('Navbar yüklenirken hata oluştu:', error));
+        </script>
+        <div class="container" style="text-align: center;">
 
+            <!-- Saat gösterimi için ID eklenmesi -->
+            <div id="clock"></div></div>
+    </header>
     <div class="wrapper">
         <div class="button">
             <div class="icon">

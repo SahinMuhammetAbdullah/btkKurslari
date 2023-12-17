@@ -6,21 +6,24 @@
     <title>Muhammet Abdullah Şahin</title>
     <meta name="description" content="Bilgisayar Mühendisi Muhammet Abdullah Şahin'in Kişisel Web Sitesi">
     <meta name="keywords" content="muhammet,abdullah,şahin,bilgisayar mügendisi,mühendis,yazılımcı,yazılım uzmanı,backend,frontend">
+    <link rel="stylesheet" href="../css/style.css" />
+
 </head>
 <body>
-        <nav>
-            <center>
-                <h1>Muhammet Abdullah Şahin</h1>
-                <a href="../index.html">Anasayfa |</a>
-                <a href="hakkimda.html">Hakkımda |</a>
-                <a href="projeler.html">Projeler |</a>
-                <a href="iletisim.html">İletişim |</a>
-                <a href="cvindir.html">CV'i İndir</a>
-                <br>
-                <br>
-                <hr>
-                               
-            </center>
-        </nav>
+  
+    <header>
+        <div id="navbar-container"></div>
+
+        <script>
+            // fetch ile navbar.html dosyasını yükle
+            fetch('/components/navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    // HTML içeriğini alınan data ile doldur
+                    document.getElementById('navbar-container').innerHTML = data;
+                })
+                .catch(error => console.error('Navbar yüklenirken hata oluştu:', error));
+        </script>
+    </header>
 </body>
 </html>
