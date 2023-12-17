@@ -1,12 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Header from '../components/header/Header';
 
-function Employee({employee}) {
+function Employee({ employee }) {
+
+    const [newSalary, setNewSalary] = useState(employee?.salary)
     return (
         <div>
-            <li key={employee?.id}>
-                <strong>ID:</strong> {employee.id}, <strong>Name:</strong> {employee.name}, <strong>Position:</strong> {employee.position}, <strong>Salary:</strong> {employee.salary} <hr />
-            </li>
+            <Header data={{title:"Çalışanlar"}}></Header>
+
+            <h1>
+                {employee?.firstName}
+                {employee?.lastName}
+            </h1>
+            <p>
+                {newSalary}
+            </p>
+            <button onClick={() => setNewSalary(newSalary + 1000)} >+</button>
+            <hr />
         </div>
     )
 }
+
 export default Employee;

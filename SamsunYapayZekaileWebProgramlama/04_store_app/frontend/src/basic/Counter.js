@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Header from '../components/header/Header';
 
 function Counter() {
     const [num, setNum] = useState(0);
@@ -13,7 +14,9 @@ function Counter() {
         console.log(num);
     }
     return (
+        
         <div>
+            <Header data={{title:"Sayaç"}}></Header>
             {num}
 
             <button onClick={increase} >Arttır</button>

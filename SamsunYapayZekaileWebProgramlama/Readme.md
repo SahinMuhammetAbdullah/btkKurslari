@@ -33,3 +33,5 @@
     * npx create-react-app . yazıyoruz (eski bir react app'i)
         * packege.jason üzerine çalışacağız
 * * "const [num, setNum] = useState(0);" cont bir sabit iken bu şekilde useState ile değişmeyen değerin sabitin değeri num da tutulur değeri değiştirmek istediğğimde set kullanmamız lazım bu şekilde refaransını değiştirerek "dom" manipilasyonunu ortadan kalkar bu da değiştiği için sayfayı yakalamak adına cont olarak kullanılır
+
+    * * rfc
