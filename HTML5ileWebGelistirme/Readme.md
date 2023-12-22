@@ -1,4 +1,6 @@
-# Temel Seçici Ornekleri
+# CSS Seçici İlşelmleri
+
+## Temel Seçici Ornekleri
 
 | Seçici{CSS Kodu}       |        Açiklama|
 |------------------------|-------------------|
@@ -11,7 +13,7 @@
 |* "nav #buton"          |        nav tagi içinde id degeri #buton tüm elemanlar seçilecek.|
 |* "h1,h2,h3,h4,h5,h6"   |        h1-h6 arasi tüm taglar secilecek.|
 
-# Karmasik Secici Ornekleri
+## Karmasik Secici Ornekleri
 
 | Seçici{CSS Kodu}       |        Açiklama|
 |------------------------|-------------------|
@@ -25,7 +27,7 @@
 |* ":after"              |        Sonraki elemani seç|
 
 
-# Link ve Ozellik Seciciler
+## Link ve Ozellik Seciciler
 
 | Seçici{CSS Kodu}       |        Açiklama|
 |------------------------|-------------------|
