@@ -16,7 +16,7 @@ import { pages } from "./navbarData";
 import { Link, useNavigate } from 'react-router-dom';
 
 
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = ['Profile', 'Book', 'Account', 'Dashboard', 'Logout', ];
 
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
