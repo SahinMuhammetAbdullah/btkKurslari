@@ -147,49 +147,92 @@
 * red, black, blue
 * rgb(0,0,0)
 * Opacity (saydamlık)
-
+----
 ### Semantik Sayfa Duzeni Etiketleri
 
-| Değer     | Açiklama                                                                                                                                                  |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "<article>" | Yorum, haber, forum gonderisi, blog gonderisi, muzik veya video gibi igerikleri kapsar.                                                                   |
-| "<section>" | Genelde benzer konuya sahip birden fazla <article> etiketini barindirir.                                                                                  |
-| "<header> " | Bir sayfanin, makalenin veya bélimin baslik bilgisini kapsar.                                                                                             |
-| "<nav>    " | Sayfa igine veya sayfa disina link vermek icin olusturulan mentleri kapsar.                                                                               |
-| "<aside>  " | Sayfalarin sol ya da sag kenarinda bulunan ment v.b. icgerikleri barindiran bélimdir.                                                                     |
-| "<footer> " | Herhangi bir sayfanin, makalenin, bdliimiin veya mentniin en altinda bulunur ve genelde en yakin icerigin iletisim ve telif hakki bilgilerini barindirir. |
-| "<figure> " | Fotograf, sekil, illistrasyon gibi icerikleri ve bu iceriklerle ilgili baslik bilgisini barindirir.                                                       |
+| Değer       | Açıklama                                                                                                                                                  |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `<article>` | Yorum, haber, forum gönderisi, blog gönderisi, müzik veya video gibi içerikleri kapsar.                                                                   |
+| `<section>` | Genellikle benzer konuya sahip birden fazla `<article>` etiketini barındırır.                                                                             |
+| `<header>`  | Bir sayfanın, makalenin veya bölümün başlık bilgisini kapsar.                                                                                             |
+| `<nav>`     | Sayfa içine veya sayfa dışına link vermek için oluşturulan menüleri kapsar.                                                                               |
+| `<aside>`   | Sayfaların sol ya da sağ kenarında bulunan menü v.b. içeriği barındıran bölümdür.                                                                         |
+| `<footer>`  | Herhangi bir sayfanın, makalenin, bölümün veya menünün en altında bulunur ve genellikle en yakın içeriğin iletişim ve telif hakkı bilgilerini barındırır. |
+| `<figure>`  | Fotoğraf, şekil, illüstrasyon gibi içerikleri ve bu içeriklerle ilgili başlık bilgisini barındırır.                                                       |
 
+---
  
-#### HTML
-----
+#### .HTML
+
+```html
 <body>
-    <div id=container>
-        <header>
-        <!-- Buraya baglik bilgileri gelecek-->
-        </neader>
-        <nav>
-        <!-- Buraya ana meni gelecek-->
+    <div id="container">
+        <header id="logo">
+            <!-- Buraya başlık bilgileri gelecek -->
+        </header>
+        <nav id="anamenu">
+            <!-- Buraya ana menü gelecek -->
         </nav>
-        <section>
-        <article>
-        <!-- Buraya igerikl gelecek-->
-        </article>
-        <article>
-        <!-- Buraya igerik2 gelecek-->
-        </article>
+        <section id="icerik">
+            <article>
+                <!-- Buraya içerik 1 gelecek -->
+            </article>
+            <article>
+                <!-- Buraya içerik 2 gelecek -->
+            </article>
         </section>
-        <aside>
-        <!--Buraya yan meni gelecek-->
+        <aside id="yanmenu">
+            <!-- Buraya yan menü gelecek -->
         </aside>
-        <footer>
-        <!-- Buraya telif bilgileri gelecek-->
+        <footer id="altmenu">
+            <!-- Buraya telif bilgileri gelecek -->
         </footer>
     </div>
 </body>
+```
+#### .CSS
 
- 
+```CSS
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    border: deeppink solid 3px;
+    width: 90%;
+    margin: auto;
+}
+#logo{
+    border: green dashed 1px;
+    width: 90%;
+    height: 50px;
+}
+#anamenu{
+    border: black dashed 1px;
+    width: 90%;
+    height: 50px;
+}
+#icerik{
+    border: yellow dotted 1px;
+    width: 70%;
+    min-height: 500px;
+    becround-color: gray;
+}
+#yanmenu{
+    border: blue solid 1px;
+    width: 30%;
+    min-height: 500px;
+    becround-color: white;
+    float: left;
+}
+#altmenu{
+    border: yellow dashed 1px;
+    width: 100%;
+    min-height: 50px;
+    becround-color: gray;
+    float: left;
+}
 
- 
-
-
+```
+---
