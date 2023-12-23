@@ -111,3 +111,85 @@
 
 ### Kutular İçin Düzen Tablosu
 ![Kutular İçin Düzen](./Ekran%20görüntüsü%202023-12-23%20230315.png)
+
+
+### Kutunun Sayfaya Konumlandirilmasi
+
+| Ozellik ve Değer   | Açiklama                                                                                                                                                                      |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| position:static;   | Her kutunun varsayilan degeridir. Static degere sahip kutular HTML komutu nereye konulduysa orada bulunur.                                                                    |
+| position:relative; | Kutunun bulundugu konumuna gore tasinmasini saglar.                                                                                                                           |
+| position:fixed;    | Kutunun sayfa kenarlarina gre konumlanmasini saglar.                                                                                                                          |
+| position:absolute; | Baska kutu iginde bulunan kutulari kontrol etmek icin kullanilir. iginde bulundugu kutuya gore Ustten, sagdan, alttan ve soldan mesafeler verilerek kutunun konumu ayarlanir. |
+
+### Kutudan Tasan Iceriginin Ayarlanmas!
+
+| Ozellik ve Değer  | Açiklama                                                                                                                             |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| overflow:visible; | Varsayilan olarak bu deger kullanilir. Eger igerik kutu igine sigmazsa tasan kisim alttan devam eder ve ziyaretciye gésterilir.      |
+| overflow:hidden;  | icerik kutu icine sigmazsa tasan kisim ziyaretciye gosterilmez.                                                                      |
+| overflow:scroll;  | içerik kutu igine sigmazsa tasan kisim ziyaretciye gésterilmez ama bir kaydirma cubugu ile tasan igerigin goriintiilenmesi saglanir. |
+| overflow:auto;    | Eger taşma olursa kaydirma cubugu güsterilir ve tasan içerik kaydirma cubugu ile görüntilenebilir.                                   |
+
+### Kutularda Golge Olusturma
+
+| Değer    | Açiklama                                        |
+| -------- | ----------------------------------------------- |
+| none     | Varsayilan degerdir. Gölge olmaz.               |
+| h-shadow | Gélgenin yatay boyutu.                          |
+| v-shadow | Gélgenin dikey boyutu.                          |
+| blur     | Gélgenin kenarini belirlenen boyutta yumusatir. |
+| color    | Gélge rengi.                                    |
+| inset    | Gélgeyi nesnenin i¢ tarafina yapar.             |
+
+### Temel Renk Komutları
+
+* red, black, blue
+* rgb(0,0,0)
+* Opacity (saydamlık)
+
+### Semantik Sayfa Duzeni Etiketleri
+
+| Değer     | Açiklama                                                                                                                                                  |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "<article>" | Yorum, haber, forum gonderisi, blog gonderisi, muzik veya video gibi igerikleri kapsar.                                                                   |
+| "<section>" | Genelde benzer konuya sahip birden fazla <article> etiketini barindirir.                                                                                  |
+| "<header> " | Bir sayfanin, makalenin veya bélimin baslik bilgisini kapsar.                                                                                             |
+| "<nav>    " | Sayfa igine veya sayfa disina link vermek icin olusturulan mentleri kapsar.                                                                               |
+| "<aside>  " | Sayfalarin sol ya da sag kenarinda bulunan ment v.b. icgerikleri barindiran bélimdir.                                                                     |
+| "<footer> " | Herhangi bir sayfanin, makalenin, bdliimiin veya mentniin en altinda bulunur ve genelde en yakin icerigin iletisim ve telif hakki bilgilerini barindirir. |
+| "<figure> " | Fotograf, sekil, illistrasyon gibi icerikleri ve bu iceriklerle ilgili baslik bilgisini barindirir.                                                       |
+
+ 
+#### HTML
+----
+<body>
+    <div id=container>
+        <header>
+        <!-- Buraya baglik bilgileri gelecek-->
+        </neader>
+        <nav>
+        <!-- Buraya ana meni gelecek-->
+        </nav>
+        <section>
+        <article>
+        <!-- Buraya igerikl gelecek-->
+        </article>
+        <article>
+        <!-- Buraya igerik2 gelecek-->
+        </article>
+        </section>
+        <aside>
+        <!--Buraya yan meni gelecek-->
+        </aside>
+        <footer>
+        <!-- Buraya telif bilgileri gelecek-->
+        </footer>
+    </div>
+</body>
+
+ 
+
+ 
+
+
