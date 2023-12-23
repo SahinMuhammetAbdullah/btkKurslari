@@ -6,7 +6,6 @@ export default function Product({ product }) {
   return (
     <div>
       <Header data={{ title: `${product?.name}` }} ></Header>
-
       {product?.name}
     </div>
   )

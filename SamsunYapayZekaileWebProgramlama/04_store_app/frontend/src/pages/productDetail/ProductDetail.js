@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { products } from '../products/ProductsData';
 import Comment from './Comment';
+import NewCommet from './NewCommet';
 
 export default function ProductDetail() {
   const { id } = useParams();
 
-  const selectedProduct = products.find(p => p.id === parseInt(id))
-  if (!selectedProduct) {
-    return <div>Ürün Bulunamadı</div>
-  }
+  // const selectedProduct = products.find(p => p.id === parseInt(id))
+
+  const [selectedProduct, setSelectedProduct] =
+    useState(products.find(p => p.id === parseInt(id)));
+
   if (!selectedProduct) {
     return <div>Ürün Bulunamadı</div>
   }
@@ -23,7 +25,7 @@ export default function ProductDetail() {
       <p>
         {selectedProduct?.price}
       </p>
-      <hr/>
+      <hr />
       <h1>Yorumlar</h1>
       <ul>
         {/* {selectedProduct.comments.map((c) => (
@@ -31,12 +33,17 @@ export default function ProductDetail() {
             {c?.text}
           </li>
         ))} */}
-        <Comment comments = {selectedProduct?.comments} />
+        <Comment selectedProduct={selectedProduct} />
       </ul>
+
+      <p>
+        <NewCommet selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} />
+      </p>
 
       <p>
         <Link to="/products">Ürünler</Link>
       </p>
+
 
     </div>
   )

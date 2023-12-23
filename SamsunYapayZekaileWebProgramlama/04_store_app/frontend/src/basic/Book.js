@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 
 function Book() {
-    const [bookData, setBookData] = useState({
+
+    const initialValues =
+    {
         title: '',
         price: '',
-        author: ''
-    });
+        author: '',
+    }
+
+    const [bookData, setBookData] = useState(initialValues);
 
     const handleChange = (e) => {
         setBookData({
-            ...bookData,
+            ...bookData,//buradaki "..." operatörü spread operatörüdür ve nesneyi ayrıştırmak için kullanılır
             [e.target.name]: e.target.value
         });
     }
@@ -17,6 +21,10 @@ function Book() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(bookData);
+
+        // Formu boşaltmak için state'i sıfırla
+        setBookData(initialValues);
+        // e.target.reset(); // alternatif formu temizleme
     }
 
     return (
@@ -27,25 +35,26 @@ function Book() {
                     type="text"
                     name="title"
                     placeholder="Kitap adı"
-                    value={bookData.title}
+                    value={bookData?.title}
                     onChange={handleChange}
                 />
                 <input
                     type="text"
                     name="price"
                     placeholder="Fiyatı"
-                    value={bookData.price}
+                    value={bookData?.price}
                     onChange={handleChange}
                 />
                 <input
                     type="text"
                     name="author"
                     placeholder="Yazarı"
-                    value={bookData.author}
+                    value={bookData?.author}
                     onChange={handleChange}
                 />
                 <input type="submit" />
             </form>
+            {JSON.stringify(bookData)}
         </div>
     );
 }

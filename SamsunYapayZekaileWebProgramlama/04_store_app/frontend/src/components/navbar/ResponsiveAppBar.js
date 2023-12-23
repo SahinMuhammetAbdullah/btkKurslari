@@ -13,10 +13,10 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { pages } from "./navbarData";
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
-const settings = ['Profile', 'Book', 'Account', 'Dashboard', 'Logout', ];
+const settings = ['Profile', /*'Book'*/  'Account', 'Dashboard', 'Logout', 'BookWithFormik', 'ArrayManipulation'];
 
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);

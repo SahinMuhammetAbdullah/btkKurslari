@@ -35,3 +35,9 @@
 * * "const [num, setNum] = useState(0);" cont bir sabit iken bu şekilde useState ile değişmeyen değerin sabitin değeri num da tutulur değeri değiştirmek istediğğimde set kullanmamız lazım bu şekilde refaransını değiştirerek "dom" manipilasyonunu ortadan kalkar bu da değiştiği için sayfayı yakalamak adına cont olarak kullanılır
 
     * * rfc
+
+yazılım sadece kod değildir bağımlılıklarda vardır (formik kullanırken geçti) (paket referans donaımım vb.)
+javaScripte nesne obje dendiğinde süslü parantez"{}"
+bağımlılık seçerken dikkat et gerekli ise kullan
+
+araştırma lms

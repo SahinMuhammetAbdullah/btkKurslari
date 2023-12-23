@@ -3,13 +3,15 @@ import Counter from './basic/Counter';
 import EmployeeList from './basic/EmployeeList';
 import { Route, Routes } from 'react-router-dom';
 import Contact from './basic/Contact';
-import Navbar from './components/navbar/Navbar';
+// import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import Products from './pages/products/Products';
 import ProductDetail from './pages/productDetail/ProductDetail';
 import ResponsiveAppBar from './components/navbar/ResponsiveAppBar';
 import Book from './basic/Book';
+import BookWithFormik from './basic/BookWithFormik';
+import ArrayManipulation from './basic/ArrayManipulation';
 
 
 
@@ -22,6 +24,8 @@ function App() {
 
       <main>
         <Routes>
+          <Route path='/arraymanipulation' element={<ArrayManipulation />}></Route>
+          <Route path='/bookwithformik' element={<BookWithFormik />}></Route>
           <Route path='/book' element={<Book />}></Route>
           <Route path='/counter' element={<Counter />}></Route>
           <Route path='/employees' element={<EmployeeList />}></Route>
