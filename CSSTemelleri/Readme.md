@@ -109,5 +109,5 @@
 | border-width | px, thin, medium, thick                                           | Cizgi kalinligint ayarlar.  |
 | border-color | renk_adi, #rrggbb, rgb(rrr,ggg,bbb)                               | Kenarlik rengini belirler.  |
 
-
+### Kutular İçin Düzen Tablosu
 ![Kutular İçin Düzen](./Ekran%20görüntüsü%202023-12-23%20230315.png)
