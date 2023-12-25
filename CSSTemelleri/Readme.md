@@ -233,11 +233,10 @@
     becround-color: gray;
     float: left;
 }
-
 ```
 ---
 
-## Tepkisel Web sayfası oluşturma
+### Tepkisel Web sayfası oluşturma
 1. Adım `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 2. Ölçü birimleri (sık kullanılanlar)
     * Absulude
@@ -256,3 +255,86 @@
 
 ### Izgara Tabanli Sayfa Tasarim! (Grid View)
 ![Izgara Tabanli Sayfa Tasarim](./izgara.png)
+
+### CSS Kod Sorgusu (Media Query)
+```CSS
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: yellow;
+    }
+}
+```
+### Tepkisel Sayfa Oluşturma Adımları
+1.  HTML Sayfasinin Kodlanması
+    ```HTML 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ```
+2. Kutu Genisliginin Sabitlenmesi
+    ```CSS
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+    ```
+3. Sütun CSS Kodlarinin Yazilmasi
+    ```CSS
+    /* (100/12)=8.33 ==> bir sütun genisligi */
+    /* sütun sayisi ve sayfa genisligi yüzdesi */
+    .Col-1 {width: 8.33%; }
+    .col-2 {width: 16.66%; }
+    .col-3 {width: 25%;}
+    .Col-4 {width: 33.33%; }
+    .col-5 {width: 41.66%; }
+    .col-6 {width: 50%;}
+    .Col-7 {width: 58.33%; }
+    .Col-8 {width: 66.66%; }
+    .col-9 {width: 75%; }
+    .Col-10 {width: 83.33%; }
+    .Col-11 {width: 91.66%; }
+    .col-12 {width: 100%; }
+    ```
+4. Sütunlarin Sola Yaslandirilmasi
+    ```CSS
+        /* “col-" ile basglayan tim siniflara uygulansin */
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+        }
+    ```
+5. Satirlarin Temizlenmesi
+    ```CSS
+    /*Yan yana satır gelmesin diye yazılıyor*/
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    ```
+6. Küçük Ekranlarla Uyum
+    ```CSS
+    /* Cep telefonlarinda her kutu %100 genislikte olsun */
+    @media only screen and (max-width: 768px) {
+        [class*="col-"] { width: 100%; }
+    }
+    ```
+7. Tepkisel Resim
+    ```CSS
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    ```
+8. Satir ve Kutularin Olusturulması
+    ```HTML
+    <div id="row1" class="row">
+        <div class="col-2">
+            LOGO
+        </div>
+        <div class="col-10">
+            MENU
+        </div>
+    </div>
+    ```
