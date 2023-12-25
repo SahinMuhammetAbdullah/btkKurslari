@@ -41,3 +41,5 @@ javaScripte nesne obje dendiğinde süslü parantez"{}"
 bağımlılık seçerken dikkat et gerekli ise kullan
 
 araştırma lms
+
+* API : bir uygulamanınn işlevselliğini yada .. paylaşmak için kullanılan yapı

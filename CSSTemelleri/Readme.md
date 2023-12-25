@@ -110,7 +110,7 @@
 | border-color | renk_adi, #rrggbb, rgb(rrr,ggg,bbb)                               | Kenarlik rengini belirler.  |
 
 ### Kutular İçin Düzen Tablosu
-![Kutular İçin Düzen](./Ekran%20görüntüsü%202023-12-23%20230315.png)
+![Kutular İçin Düzen](./kutular.png)
 
 
 ### Kutunun Sayfaya Konumlandirilmasi
@@ -236,3 +236,23 @@
 
 ```
 ---
+
+## Tepkisel Web sayfası oluşturma
+1. Adım `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+2. Ölçü birimleri (sık kullanılanlar)
+    * Absulude
+        * px: (piksel)
+        * pt: (punto)
+    * Relative
+        * % : (yüzde)
+        * em: (oran)
+3. Nesne sığdırma
+   * object-fit:
+        * none        : Bovut degistirmez.
+        * fill        : Varsayilan deger.
+        * contain     : En-boy orant korunarak iginde bulundugu nesneye gore boyut degistirir.
+        * cover       : En-boy orant korunarak i¢inde bulundugu nesneye gore boyut degistirir, kutu içine sigmak icin resim kirpilir.
+
+
+### Izgara Tabanli Sayfa Tasarim! (Grid View)
+![Izgara Tabanli Sayfa Tasarim](./izgara.png)
