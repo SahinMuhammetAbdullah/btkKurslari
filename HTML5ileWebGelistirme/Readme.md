@@ -106,3 +106,7 @@ Semantik ve Yapısal Etiketler (HTML5):
 <summary>: <details> etiketindeki açılır menünün özetini belirtir.
 <time>: Belirli bir tarih veya zamanı belirtir.
 ```
+## main tagının özel açıkaması
+```HTML
+<main> etiketi, HTML5'te semantik bir etikettir ve sayfanın ana içeriğini belirtmek için kullanılır. Sayfanın geri kalanından bağımsız olarak, sayfanın ana içeriği <main> etiketi içine yerleştirilir.
+```
