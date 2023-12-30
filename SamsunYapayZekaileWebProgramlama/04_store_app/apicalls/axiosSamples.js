@@ -1,48 +1,42 @@
 import axios from "axios";
 
-const baseUrl = `http://localhost:3000/Products`;
+const baseUrl = `http://localhost:3000/products`;
 
 async function getOneProduct(id) {
     const url = `${baseUrl}/${id}`;
-    const { data, status } = await axios.get(url);
+    const { data, status } = await axios.get(url)
     return data;
 }
 
-async function getAllProduct() {
-    const { data, status } = await axios.get(baseUrl);
+async function getAllProducts() {
+    const { data, status } = await axios.get(baseUrl)
     return data;
 }
 
-async function creatOneProduct(product) {
-    const { data, status } = await axios.post(baseUrl, product);
+async function createOneProduct(product) {
+    const { data } = await axios.post(baseUrl, product)
     return data;
 }
 
-const product = {
-
-    "id": 13,
-    "name": "latte",
-    "price": 50
-
-}
-
-async function updatedOneProduct(id,product){
-    const { data, status } = await axios.put(`${baseUrl}/${product.id}`, product);
+async function updateOneProduct(id, product) {
+    const { data } = await axios.put(`${baseUrl}/${id}`, product)
     return data;
 }
 
 async function deleteOneProduct(id) {
-    const { data, status } = await axios.delete(`${baseUrl}/${id}`);
+    const { data } = await axios.delete(`${baseUrl}/${id}`)
     return data;
 }
 
+const product = {
+    "id": 21,
+    "name": "Black C. Latte",
+    "price": 175
+};
+
 // const response = await getOneProduct(16);
-// const response = await getAllProduct();
-// const response = await creatOneProduct(product);
-// console.log(response);
-// const response = await updatedOneProduct(product);
-// console.log(response);
-const response = await deleteOneProduct(13);
+// const response = await getAllProducts();
+// const response = await createOneProduct(product);
+// const response = await updateOneProduct(21, product);
+const response = await deleteOneProduct(21);
 console.log(response);
-const responses = await getAllProduct();
-console.log(responses);

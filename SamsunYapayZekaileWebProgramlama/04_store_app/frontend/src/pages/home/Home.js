@@ -1,9 +1,7 @@
 import React from 'react'
 
-function Home() {
-  return (
-    <div>Hoşgeldiniz</div>
-  )
+export default function Home() {
+    return (
+        <div>Hoş geldiniz</div>
+    )
 }
-
-export default Home;

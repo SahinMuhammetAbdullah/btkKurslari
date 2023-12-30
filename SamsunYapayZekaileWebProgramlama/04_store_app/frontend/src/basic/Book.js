@@ -1,62 +1,56 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 function Book() {
 
-    const initialValues =
-    {
+    const initialValue = {
         title: '',
         price: '',
-        author: '',
-    }
+        author: ''
+    };
 
-    const [bookData, setBookData] = useState(initialValues);
+    const [values, setValues] = useState(initialValue);
 
-    const handleChange = (e) => {
-        setBookData({
-            ...bookData,//buradaki "..." operatörü spread operatörüdür ve nesneyi ayrıştırmak için kullanılır
-            [e.target.name]: e.target.value
-        });
-    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(bookData);
+        console.log(values);
+        setValues(initialValue);
+        // e.target.reset()
+    }
 
-        // Formu boşaltmak için state'i sıfırla
-        setBookData(initialValues);
-        // e.target.reset(); // alternatif formu temizleme
+    const handleChange = (e) => {
+        setValues({
+            ...values,
+            [e.target.name]: e.target.value
+        })
     }
 
     return (
         <div>
             <h1>Kitap Formu</h1>
-            <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    name="title"
-                    placeholder="Kitap adı"
-                    value={bookData?.title}
-                    onChange={handleChange}
-                />
-                <input
+            <form onSubmit={handleSubmit} >
+                <input onChange={handleChange}
+                    type="text" name="title"
+                    placeholder='Kitap adı'
+                    value={values?.title} />
+
+
+                <input onChange={handleChange}
+                    value={values?.price}
                     type="text"
                     name="price"
-                    placeholder="Fiyatı"
-                    value={bookData?.price}
-                    onChange={handleChange}
-                />
+                    placeholder='Fiyatı' />
                 <input
+                    value={values?.author}
+                    onChange={handleChange}
                     type="text"
                     name="author"
-                    placeholder="Yazarı"
-                    value={bookData?.author}
-                    onChange={handleChange}
-                />
+                    placeholder='Yazarı' />
                 <input type="submit" />
             </form>
-            {JSON.stringify(bookData)}
+            {JSON.stringify(values)}
         </div>
-    );
+    )
 }
 
 export default Book;

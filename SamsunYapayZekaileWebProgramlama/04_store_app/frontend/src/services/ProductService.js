@@ -1,15 +1,29 @@
-import axios from 'axios';
+import axios from "axios";
 
 class ProductService {
     constructor() {
-        this.baseUrl = `http://localhost:3000/Products`;
+        this.baseUrl = 'http://localhost:3000/products';
     }
 
-    async getAllProducts(){
-        const {data} = await axios
+    async getAllProducts() {
+        const { data } = await axios
             .get(this.baseUrl);
+
+        return data;
+    }
+
+    async getOneProductById(id) {
+        // endpoint : localhost:3000/products/:id
+        const url = `${this.baseUrl}/${id}`;
+        const { data } = await axios.get(url);
+        return data;
+    }
+
+    async updateOneProduct(id, product) {
+        // [PUT] endpoint : localhost:3000/products/:id
+        const url = `${this.baseUrl}/${id}`;
+        const { data } = await axios.put(url, product);
         return data;
     }
 }
-
 export default ProductService;

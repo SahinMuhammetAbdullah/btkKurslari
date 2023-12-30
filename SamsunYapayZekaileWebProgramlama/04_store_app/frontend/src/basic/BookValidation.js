@@ -1,18 +1,17 @@
 import * as Yup from 'yup';
-//yapılan iş validation kontrol
 
 const BookValidationSchema = Yup.object().shape({
-  title: Yup.string().required('Kitap adı zorunludur'),
+    title: Yup.string().required('Kitap adı boş bırakılamaz'),
 
-  price: Yup.number()
-    .typeError('lütfen geçerli fiyat giriniz')
-    .positive('sıfırdan küçük olamaz')
-    .required('Fiyatı zorunludur')
-    .positive('Fiyat sıfırdan büyük olmalıdır')
-    .min(10, "Fiyat 10 küçük olamaz")
-    .max(1000, "Fiyat 1000 den büyük olamaz"),
+    price: Yup
+        .number()
+        .typeError('Lütfen geçerli fiyat giriniz.')
+        .positive('Sifirdan kucuk olamaz')
+        .required('Fiyat bilgisi boş bırakılamaz')
+        .min(10, 'Fiyatı 10 küçük olamaz.')
+        .max(1000, 'Fiyat 1000 den büyük olamaz'),
 
-  author: Yup.string().required('Yazar adı zorunludur'),
+    author: Yup.string().required('Yazar bilgisi boş bırakılamaz'),
 });
 
 export default BookValidationSchema;

@@ -1,28 +1,28 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState } from 'react';
 import Header from '../components/header/Header';
 
 function Counter() {
-    const [num, setNum] = useState(0);
+
+    const [number, setNumber] = useState(0);
 
     function increase() {
-        setNum(num + 1)
-        console.log(num);
+        setNumber(number + 1)
+        console.log(number);
     }
-    function decrease() {
-        setNum(num - 1);
-        console.log(num);
-    }
-    return (
-        
-        <div>
-            <Header data={{title:"Sayaç"}}></Header>
-            {num}
 
-            <button onClick={increase} >Arttır</button>
-            <button onClick={decrease}>Azalt</button>
+    function decrease() {
+        setNumber(number - 1);
+        console.log(number);
+    }
+
+    return (
+        <div>
+            <Header data={{ title: "Sayaç" }}></Header>
+            {number}
+            <button onClick={increase} >Artır</button>
+            <button onClick={decrease} >Azaltmak</button>
         </div>
     )
 }
-
 export default Counter;
